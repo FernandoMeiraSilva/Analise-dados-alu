@@ -85,5 +85,5 @@ print(type(idade))
 ano_entrada= int(input('Digite o ano de entrada: '))
 
 nota_entrada = float(input("Digite a nota do teste"))
-print(f'Idade de entrada {ano_entrada} - nota do teste {nota_entrada}') # O f antes mostra para o codigo que vai ter inserção de valores e fica mais fácil de ser entendido para qm esta lendo o codigo 
+print(f'Idade de entrada {ano_entrada} - nota do teste {nota_entrada}') # O f antes mostra para o codigo que vai ter inserção de valores e fica mais fácil de ser entendido para qm esta lendo o codigo. A outras maneiras de usar a formatação .format() e %s, %d, %f. ele ficaria assim print('Idade de entrada {} - nota do teste {}'.format(ano_entrada, nota_entrada)) ou print('Idade de entrada %d - nota do teste %.2f' %(ano_entrada, nota_entrada)) o %s é usado para string, %d para inteiro e %f para decimal. O .2f é usado para mostrar apenas 2 casas decimais.
 
